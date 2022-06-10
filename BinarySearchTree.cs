@@ -56,5 +56,9 @@ namespace BinarySearchTree
                 this.RightTree.Display();
             }
         }
+        public void GetSize()                              //UC2
+        {
+            Console.WriteLine($"Size: {1 + this.leftCount + this.rightCount}");
+        }
     }
 }
